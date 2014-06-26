@@ -9,7 +9,7 @@ When building for ServiceWorker I use a bunch of links to help me get started an
 
 ## Debugging
 
-* [ServiceWorkerInternals (chrome canary only)](chrome://serviceworker-internals/) - page for debugging ServiceWorkers in chrome, including stopping, unregistering and starting workers.
+* ServiceWorkerInternals (chrome canary only - chrome://serviceworker-internals/) - page for debugging ServiceWorkers in chrome, including stopping, unregistering and starting workers.
 
 ## Examples
 
@@ -19,7 +19,6 @@ When building for ServiceWorker I use a bunch of links to help me get started an
 ## Other APIs
 
 * [Promises HTML5Rocks](http://www.html5rocks.com/en/tutorials/es6/promises/) - Understanding Promises (used frequently in ServiceWorkers especially in fetch, cache). 
-* 
-
+* [The Basics of Web Workers](http://www.html5rocks.com/en/tutorials/workers/basics/) - Understanding concurrency in JavaScript and how web workers work.
 
 
