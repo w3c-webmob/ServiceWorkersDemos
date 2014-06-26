@@ -1,5 +1,7 @@
 When building for ServiceWorker I use a bunch of links to help me get started and understand ServiceWorkers and the other APIs which help make them work. Please check these out to help you build apps, and suggest links in a PR!
 
+Super Tip: If you're building ServiceWorkers use a beta verison of a browser (e.g. [Chrome Canary](https://www.google.co.uk/intl/en/chrome/browser/canary.html) or [Firefox Nightly](http://nightly.mozilla.org/)).
+
 ## Tutorials and Implementations
 
 * [Is Service Worker Ready Yet](https://jakearchibald.github.io/isserviceworkerready/) - Jake Archibald made a great website which details ServiceWorker implementations across the major browsers.
