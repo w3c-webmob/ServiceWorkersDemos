@@ -17,7 +17,7 @@ If you wish to get to work on some of these items then fantastic! The process be
 * What was easy
 * What was difficult
 * Behaviour of the ServiceWorker (did it do [a] what it was supposed to do and [b] what you logcally expected it would do?)
-* Answer whether the ServiceWprker satisfied the use case
+* Answer whether the ServiceWorker satisfied the use case
 * Anything else you think is relevant!
 
 Documentation doesn't need to be too verbose! Just a short report will suffice. Once we have collected a good number of case examples we will send a Pull Requestto the main ServiceWorker repo. 
