@@ -1,40 +1,30 @@
-# Use-cases & Examples for ServiceWorker
+# Service Workers example apps
+In this project, we hope to build a set of reference applications that make use of service workers. 
 
-This directory contains use cases and examples for ServiceWorker. It was constructed to ensure the spec captures use-cases & identify areas the API could cater for common patterns.
+Our goal is to show how you can perform tasks that are common in native applications using this new set of APIs. We want to keep the apps simple, so they can be easily bisected and copied by anyone.
 
-## Test Cases and Demos
+## WE ARE JUST GETTING STARTED
+Sorry about going all caps there, but these are all in the earliest stage of development. We are looking for people to help us! Nothing works right now.
 
-The [W3C Web and Mobile Interest Group](https://www.w3.org/wiki/Mobile/Work) would like to support the work the ServiceWorker team by turning these use cases into real demo apps. We can then use these apps to test ServiceWorker, and provide feedback to the spec team to adjust things if necessary.
+### How can you help? 
+We need you to help us build these things! If you wish to get to work on some of these items then fantastic! The process below is a guideline to how to get started.
 
-### Process
-If you wish to get to work on some of these items then fantastic! The process below is a guideline to how to get started.
+1. Fork this repo! 
+1. Choose one of the apps from the directories above.
+1. Use the app's behavior draft to implement the application. 
+1. Keep it really simple!  
 
-1. Choose one of the use cases / examples, these are found in the directories in the root of this repo.
-2. In 'Issues' find the Use Case and let us know you're working on it!
-3. Start building a demo application using an implementation of ServiceWorker
-4. Document the process explaining:
+## How to run these things?
+We will be hosting them on a website soon, so you can see them as we build them. 
 
-* What was easy
-* What was difficult
-* Behaviour of the ServiceWorker (did it do [a] what it was supposed to do and [b] what you logcally expected it would do?)
-* Answer whether the ServiceWorker satisfied the use case
-* Anything else you think is relevant!
+Right now, you will need:
 
-Documentation doesn't need to be too long! Just a short report will will be fine. Once we have collected a good number of  examples and data we will send these to the ServiceWorker spec team. 
-
-### Eek someone else is building the app I wanted to build!
-
-Build it anyway! You may find another issue or a different way of working with ServiceWorkers that we would definitely be interested in. Just go for it and let us know how it goes!
-
-## Implementations
-Implementations of ServiceWorker are given below. The spec and implementations are in a very early stage! You may find issues with implementations in that they may often change or produce strange results at first. We encourage everyone to submit bugs to the browser vendor in which they experience bugs.
-
-* Jake Archibald's [IsServiceWorkerReady](https://jakearchibald.github.io/isserviceworkerready/) page - check fo all implementations
 * Chrome: Behind a flag. Check at [chromestatus](http://www.chromestatus.com/features/6561526227927040)
 * Firefox: [Build for Nightly](http://blog.nikhilism.com/2014/05/serviceworker-implementation-status-in-firefox.html)
 
-## What's next?
-After we have collected some use case demos and tests we will send these together with the data we have collected to the ServiceWorker spec team so they can make any adjustments or feel content that they did an awesome job! It will be up to the ServiceWorker team how they go about making any adjustments or using the data that our demos / tests produced. 
+**Please note that the spec and implementations are in a very early stage!** You may find issues with implementations in that they may often change or produce strange results at first. To see what actually works in browses today, see: 
 
-## More Use Cases
-If you have more use cases please add them to this repo! Fork the repo, add a directory to the root directory complete with a README.md file explaining the use case in an much detail as you can. Then make a pull request!
+* Jake Archibald's [IsServiceWorkerReady](https://jakearchibald.github.io/isserviceworkerready/) page - check fo all implementations
+
+## I wanna build something different!
+If you have a more interesting app you want to build, please add them to this repo! Fork the repo, add a directory to the root directory complete with a README.md file explaining the use case in an much detail as you can. Then make a pull request!
