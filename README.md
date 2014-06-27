@@ -1,30 +1,55 @@
 # Service Workers example apps
-In this project, we hope to build a set of reference applications that make use of service workers. 
+In this project, we hope to build a set of reference applications that make full use of [service workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html). 
 
 Our goal is to show how you can perform tasks that are common in native applications using this new set of APIs. We want to keep the apps simple, so they can be easily bisected and copied by anyone.
 
 ## WE ARE JUST GETTING STARTED
-Sorry about going all caps there, but these are all in the earliest stage of development. We are looking for people to help us! Nothing works right now.
+Sorry about going all caps there, but these are all in the earliest stage of development. We are looking for people to help us create these apps! 
+
+**Please note that the spec and implementations are in a very early stage!** You may find issues with implementations in that they may often change or produce strange results at first. To see what actually works in browses today, see: 
+
+* Jake Archibald's [IsServiceWorkerReady](https://jakearchibald.github.io/isserviceworkerready/) page - check fo all implementations
 
 ### How can you help? 
-We need you to help us build these things! If you wish to get to work on some of these items then fantastic! The process below is a guideline to how to get started.
+The process below is a guideline to how to get started.
 
 1. Fork this repo! 
 1. Choose one of the apps from the directories above.
 1. Use the app's behavior draft to implement the application. 
-1. Keep it really simple!  
+1. Keep it really simple! See our list of resources below to learn about service workers.  
 
 ## How to run these things?
 We will be hosting them on a website soon, so you can see them as we build them. 
 
 Right now, you will need:
 
-* Chrome: Behind a flag. Check at [chromestatus](http://www.chromestatus.com/features/6561526227927040)
-* Firefox: [Build for Nightly](http://blog.nikhilism.com/2014/05/serviceworker-implementation-status-in-firefox.html)
+* [Chrome Canary](http://www.google.com/intl/en/chrome/browser/canary.html). Type: "chrome://flags/" in the URL bar and turn on "enable-service-worker" and "experimental-web-platform-features".
 
-**Please note that the spec and implementations are in a very early stage!** You may find issues with implementations in that they may often change or produce strange results at first. To see what actually works in browses today, see: 
+## Wanna build something different?
+If you have a more interesting app you want to build, please add them to this repo. Just add a directory to the root directory with a README.md file explaining what the app does and send us a pull request! 
 
-* Jake Archibald's [IsServiceWorkerReady](https://jakearchibald.github.io/isserviceworkerready/) page - check fo all implementations
+##Resources
 
-## I wanna build something different!
-If you have a more interesting app you want to build, please add them to this repo! Fork the repo, add a directory to the root directory complete with a README.md file explaining the use case in an much detail as you can. Then make a pull request!
+* [The specification](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html).
+
+### Articles/Vidoes 
+
+* [ServiceWorkers and Firefox](https://hacks.mozilla.org/2014/06/serviceworkers-and-firefox/) - Introduction to ServiceWorkers on Firefox!
+* [Service Worker - first draft published](http://jakearchibald.com/2014/service-worker-first-draft/) - Introduction and tutorial including code snippets!
+* [Video: The ServiceWorker: The network layer is yours to own](https://www.youtube.com/watch?v=4uQMl7mFB6g) - video introducing ServiceWorker including HTTP caching, request, and showing SW in forms, the basis for push messaging, alarms, geofencing and background sync.
+
+### Debugging
+
+* ServiceWorkerInternals (chrome canary only - chrome://serviceworker-internals/) - page for debugging ServiceWorkers in chrome, including stopping, unregistering and starting workers.
+
+### Examples
+
+* [Jake Archibald's Trained to Thrill](https://jakearchibald.github.io/trained-to-thrill/) - Jake made a great demo app which pulls in images from Flickr, uses fetch, uses cache (not implemented yet) and worker registrations.
+* [Simple ServiceWorker](https://github.com/matthew-andrews/serviceworker-simple) - A simple Service Worker example by Matt Andrews.
+
+### Related APIs
+
+* [Promises HTML5Rocks](http://www.html5rocks.com/en/tutorials/es6/promises/) - Understanding Promises (used frequently in ServiceWorkers especially in fetch, cache). 
+* [The Basics of Web Workers](http://www.html5rocks.com/en/tutorials/workers/basics/) - Understanding concurrency in JavaScript and how web workers work.
+
+
