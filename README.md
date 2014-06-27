@@ -22,6 +22,10 @@ If you wish to get to work on some of these items then fantastic! The process be
 
 Documentation doesn't need to be too long! Just a short report will will be fine. Once we have collected a good number of  examples and data we will send these to the ServiceWorker spec team. 
 
+### Eek someone else is building the app I wanted to build!
+
+Build it anyway! You may find another issue or a different way of working with ServiceWorkers that we would definitely be interested in. Just go for it and let us know how it goes!
+
 ## Implementations
 Implementations of ServiceWorker are given below. The spec and implementations are in a very early stage! You may find issues with implementations in that they may often change or produce strange results at first. We encourage everyone to submit bugs to the browser vendor in which they experience bugs.
 
