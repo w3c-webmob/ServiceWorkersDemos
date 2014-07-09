@@ -34,3 +34,6 @@ Please go ahead and create a demo app based on the info above! If you do want so
     *   The page should be requested from the server (normal request behaviour)
         *   If fails due to network failure (no connection), friendly error message displayed, explaining the user is offline, listing article that are available offline
 * On navigate, if a check hasn’t been made for 10 minutes, look for updates to the bootstrap and page templates, update accordingly.
+
+### Questions 
+If you have questions please ask them in the issues. Just start a new issue with your question.
