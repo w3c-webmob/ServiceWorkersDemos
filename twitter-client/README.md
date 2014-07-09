@@ -1,5 +1,4 @@
 ##Twitter-client
-==============
 
 In this ServiceWorker demo app a user is viewing a twitter client which allows for the following behaviour offline:
 
