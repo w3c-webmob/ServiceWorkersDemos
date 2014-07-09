@@ -26,5 +26,5 @@ First of all, create a basic web-based todo app; it can follow a framework, be o
 
 For this app you will need to [1] register a ServiceWorker [2] detect fetches to see when the app is loaded [3] use the ServiceWorker cache to load into and from. 
 
-### I have questions! 
-Please ask them in the issues!
+### Questions 
+If you have questions please ask them in the issues. Just start a new issue with your question.
