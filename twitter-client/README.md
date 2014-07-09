@@ -24,3 +24,5 @@ Please feel free to make the app according to the above guidelines without readi
 * User 'appears' to be back online, and visits the app
   * The 'activity' which was saved when a user was offline is synced to the server.
 
+### Questions 
+If you have questions please ask them in the issues. Just start a new issue with your question.
