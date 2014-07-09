@@ -1,4 +1,4 @@
-## todo (Single page app)
+## Todo App (a single page app)
 
 This ServiceWorker demo app makes a simple to-do app work in an offline mode. AppCache was great at doing things like this, so we're particularly interested in making sure ServiceWorker is just as useful for these use cases! More details below:
 
