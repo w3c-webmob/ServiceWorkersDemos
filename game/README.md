@@ -1,8 +1,10 @@
-# Game with independently caching levels
+## Game with independently caching levels
 
-A game where each level is a different cache group.
+This ServiceWorker web app demo will be a game where each level is a different cache group. 
 
-## Behaviour draft
+You can go ahead and do this however you wish; a good example would be a 2D platformer based on levels. Each level could have it's own ServiceWorker cache, when a user is visiting the app levels are cached in separate caches (maybe the next 2/3 levels?) which will then be ready for them to load and play as soon as they complete the previous level. 
+
+## More Information / Requirements
 
 * User visited page that was cached in a ServiceWorker cache, the site decides to show them the cached data straight away for performance, then update with fresh data when/if it arrives.
 
@@ -46,3 +48,9 @@ A game where each level is a different cache group.
             * See “Starting cached level”
         * Else
             * See “Starting uncached level”
+
+### Special Requirement
+In this demo we have a special requirement for those of you who want to do something extra: one of the levels should go through an 'update'. The expected behaviour is the user should only be able to play an 'updated' level when 100% of the level has been cached. Of course it will be difficult for us to replicate this, so please go through the experience and just document the results as a .md file!
+
+### Questions 
+If you have questions please ask them in the issues. Just start a new issue with your question.
