@@ -1,6 +1,11 @@
-## A Simple Podcast Subscription / Listening Webapp using ServiceWorker 
+## A Simple Podcast Subscription / Listening Webapp 
 
-The webapp would allow users to subscribe to a set of podcasts via RSS.  It would then periodically check these RSS feeds for new episodes and sync new episodes to local storage to enable offline listening.
+This ServiceWorker demo webapp would allow users to subscribe to a set of podcasts via RSS.  It would then periodically check these RSS feeds for new episodes and sync new episodes to local storage to enable offline listening. 
+
+For this app you will need to [1] register a ServiceWorker, [2] get podcasts via XHR whilst running the in background (maybe as a inactive tab?), [3] save podcasts in a ServiceWorker cache and [4] detect 'fetches' to get podcasts from the cache rather than from a server.
+
+### More Information
+Please go ahead and make the app to the brief requirements given above! If you want more in detail requirements please see below. The app should:
 
 - display a menu of available podcasts
 - allow user to subscribe to podcasts from the menu or by entering in an RSS feed URL
@@ -15,3 +20,6 @@ The webapp would allow users to subscribe to a set of podcasts via RSS.  It woul
 - mark episodes as played when user plays them
 - remove played items from local storage after a configured period of time
 - allow user to view and delete episodes
+
+### Questions 
+If you have questions please ask them in the issues. Just start a new issue with your question.
