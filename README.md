@@ -1,14 +1,28 @@
-# Service Workers example apps
-In this project, we hope to build a set of reference applications that make full use of [service workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html). 
+# Service Workers example apps (Work in progress)
 
-Our goal is to show how you can perform tasks that are common in native applications using this new set of APIs. We want to keep the apps simple, so they can be easily bisected and copied by anyone.
+In this project, we hope to build a set of reference applications that make full use of [service workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html). Currently there are no working demos in this repo. For ServiceWorker demos try out:
+
+### Basic Demos
+* [Simple ServiceWorker Registration demo](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker/registration)
+* [Cleveland respondWith demo](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker/basic)
+* [Wiki engine demo](https://github.com/sandropaganotti/service-worker-wiki)
+* [isserviceworkerready spec tests](https://github.com/jakearchibald/isserviceworkerready/tree/master/www/demos)
+
+### Substantial demos
+* [Offline News](https://github.com/jakearchibald/offline-news-service-worker)
+* [Trained to Thrill](https://github.com/jakearchibald/trained-to-thrill)
+* [Tweetdeck offline](https://github.com/jakearchibald/tweetdeck-prototype)
+
+
 
 ## WE ARE JUST GETTING STARTED
 Sorry about going all caps there, but these are all in the earliest stage of development. We are looking for people to help us create these apps! 
 
-**Please note that the spec and implementations are in a very early stage!** You may find issues with implementations in that they may often change or produce strange results at first. To see what actually works in browses today, see: 
+Our goal is to show how you can perform tasks that are common in native applications using this new set of APIs. We want to keep the apps simple, so they can be easily bisected and copied by anyone.
 
-* Jake Archibald's [IsServiceWorkerReady](https://jakearchibald.github.io/isserviceworkerready/) page - check fo all implementations
+**Please note that the spec and implementations are in a very early stage!** You may find issues with implementations in that they may often change or produce strange results at first. : 
+
+**To see what actually works in browsers today, see Jake Archibald's [IsServiceWorkerReady](https://jakearchibald.github.io/isserviceworkerready/) page.**
 
 ### How can you help? 
 The process below is a guideline to how to get started.
