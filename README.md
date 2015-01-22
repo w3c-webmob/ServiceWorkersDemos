@@ -7,6 +7,7 @@ In this project, we hope to build a set of reference applications that make full
 * [Cleveland respondWith demo](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker/basic)
 * [Wiki engine demo](https://github.com/sandropaganotti/service-worker-wiki)
 * [isserviceworkerready spec tests](https://github.com/jakearchibald/isserviceworkerready/tree/master/www/demos)
+* [Cache All](https://github.com/boopathi/sw-cache-all) - The bare minimum Service Worker to cache all requests from the app.
 
 ### Substantial demos
 * [Offline News](https://github.com/jakearchibald/offline-news-service-worker)
