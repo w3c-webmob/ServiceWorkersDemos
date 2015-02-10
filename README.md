@@ -29,7 +29,7 @@ a sample illustrating the use of `postMessage()` to send commands from a control
 
 ### Basic Demos
 * [Wiki engine demo](https://github.com/sandropaganotti/service-worker-wiki)
-* [isserviceworkerready spec tests](https://github.com/jakearchibald/isserviceworkerready/tree/master/www/demos)
+* [isserviceworkerready spec tests](https://github.com/jakearchibald/isserviceworkerready/tree/master/src/demos)
 * [Cache All](https://github.com/boopathi/sw-cache-all) - The bare minimum Service Worker to cache all requests from the app.
 
 ### Substantial demos
