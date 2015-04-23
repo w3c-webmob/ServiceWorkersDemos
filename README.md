@@ -66,7 +66,8 @@ We will be hosting them on a website soon, so you can see them as we build them.
 
 Right now, you will need:
 
-* [Chrome Canary](http://www.google.com/intl/en/chrome/browser/canary.html). Type: "chrome://flags/" in the URL bar and turn on "enable-service-worker" and "experimental-web-platform-features".
+* [Chrome](https://www.google.com/chrome/browser/desktop/index.html).
+* [Opera](http://www.opera.com/pl/computer/windows).
 
 ## Wanna build something different?
 If you have a more interesting app you want to build, please add them to this repo. Just add a directory to the root directory with a README.md file explaining what the app does and send us a pull request! 
