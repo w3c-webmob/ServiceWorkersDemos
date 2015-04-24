@@ -68,6 +68,7 @@ Right now, you will need:
 
 * [Chrome](https://www.google.com/chrome/browser/desktop/index.html).
 * [Opera](http://www.opera.com/pl/computer/windows).
+* [Firefox Nightly](https://nightly.mozilla.org/).
 
 ## Wanna build something different?
 If you have a more interesting app you want to build, please add them to this repo. Just add a directory to the root directory with a README.md file explaining what the app does and send us a pull request! 
