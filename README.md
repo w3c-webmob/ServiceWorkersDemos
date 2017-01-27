@@ -1,3 +1,9 @@
+# THIS REPO IS NO LONGER MAINTAINED
+
+Thanks for stopping by! When we started this work, Service Workers were just becoming "a thing" - so this repo was intended to bootstrap the ecosystem. Since then countless amazing resources and videos on using Service Workers became available. As such, we are no longer able to keep up. Below links are still relevant, but we are not longer adding new ones.  
+
+## Historical... 
+
 We hope to build a set of reference applications that make full use of [service workers](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html). However, currently there are no working demos in this repo.
 
 ## For ServiceWorker demos try out:
